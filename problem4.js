@@ -19,8 +19,15 @@ function largestPalindromeProduct(n) {
   let smallestNum = Math.pow(10,(n-1));
   for ( let i = number; i >= smallestNum; i--){
     for ( let j = i; j >= smallestNum; j--){
-      if (isPalindrome(String(i*j)) && lpProduct < (i*j)){
-        lpProduct = i*j;
+
+      let product = i * j;
+
+      if (product <= lpProduct) {
+      break; // No need to continue if the product is already smaller than the largest palindrome found
+      } 
+
+      if (isPalindrome(String(product)) && lpProduct < product){
+        lpProduct = product;
       }
     }
   }
