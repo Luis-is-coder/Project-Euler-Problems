@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ProjectEulerChallenges
 
 Small collection of JavaScript solutions for the first 10 Project Euler problems. Each problem is implemented as a separate, standalone script that prints example outputs to the console.
@@ -36,3 +37,7 @@ node problem10.js
 ## Contributing
 
 Feel free to open issues or submit improvements ( performance, tests, or more examples ).
+=======
+# Project-Euler-Problems
+These files are JavaScript solutions to the Project Euler problems, each implemented in a separate file.
+>>>>>>> 2aa73e0178f960da1abe5ad171b39a72c20c8be5
